@@ -1,9 +1,10 @@
 vetor1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 vetor2 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
 vetorFinal = []
 
-for i in range(1, 21):
+for i in range(1):
     vetorFinal.insert(0, vetor1[0])
     vetorFinal.insert(1, vetor2[0])
     vetorFinal.insert(2, vetor1[1])
@@ -24,5 +25,5 @@ for i in range(1, 21):
     vetorFinal.insert(17, vetor2[8])
     vetorFinal.insert(18, vetor1[9])
     vetorFinal.insert(19, vetor2[9])
-    if i >= 20:
-        print(vetorFinal)
+
+print(vetorFinal)
